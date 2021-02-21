@@ -8,54 +8,157 @@ body{
 header{
     position:fixed;
     background-color:blue;
-    margin-top: 0px;
-    display: inline-block;
     width:100%;
-    text-align:right;
     border-radius: 10px;
     color: #ffff;
-    height: 200px;
-    text-indent: 10px;
-    
+    height: fit-content;
+    border: 2px solid black;
+    text-align: center;
+  
 }    
 
-h1{
-    text-align: left;
+
+
+/* h2{
+    display: inline-block;
     
-    }
-.personal{margin-top: 0%;}
+} */
 
+.phone{
+    float: left;
+    margin-left: 20px;
 
- 
+}
+.email{
+    float: right;
+    margin-right: 20px;
 
-
-.list{
-    padding: 5px;
 }
 
-h1{
-    padding: 10px;
-}
-
-.box1{
-    text-align:center;
-    background-color: cyan;
+.personal{
+    border:2px solid black;
     border-radius: 10px;
+    margin-top: 10px;
+    
+
 }
 
-.box2{
+.links{
+    background-color:blue;
+    border-radius: 10px;
+    border: 2px solid black;
+    text-align: center;
+    color: #ffff;
+    height: fit-content;
+    margin-top: 2px;
+   
+
+}
+
+#resume{
+    float: left;
+    margin-left: 20px;
+
+}
+
+#output{
+    float:left;
+    margin-left: 200px;
+}
+
+#family{
+    float:right;
+    margin-right: 300px;
+
+}
+
+#hobbies{
+    float:right;
+    margin-right: 20px;
+
+}  
+
+.about{
+    text-align:center;
+    background-color:cornflowerblue;
+    border-radius: 10px;
+    color: black;
+    border: 2px solid black;
+    
+
+}
+
+.group1{ 
+    background-color: cornflowerblue;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    border: 2px solid black;
+    border-radius: 10px;
+    height: fit-content;
+       
+}
+
+.group2{
+    display: flex;
+    margin-left: 200px;
+    
+}
+
+.group3{
+    display: flex;
+    margin-left: 200px;
+
+}
+
+
+
+.resume{
+    
+    margin: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+    
+}
+
+
+.samples{
+    margin: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.family{
+    
+    margin: 150px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+
+.hobbies{
+    margin: 150px;
+    border:2px solid black;
+    border-radius: 10px;
+
+}
+
+.contact{
     text-align: center;
     background-color: darkcyan;
     border-radius: 10px;
     padding: 5px;
     color: #ffff;
-
+    border: 2px solid black;
+    
 
 }
 
 footer{
     text-align: center;
     color: darkred;
+    border: 2px solid black;
+
 }
 
 
