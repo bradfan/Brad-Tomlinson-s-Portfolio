@@ -1,45 +1,31 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
+   <html lang="en-us">
+   <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Brad Tomlinson's Portfolio</title>
     <link rel="stylesheet" href="style.css">
 
-</head>
+  </head>
 
 <body>  
-    <!----C & P'd initial basic structure (2-20) from my own class activity--->
-
-    <header>  <!---flex container-->
-
-        <h1>Brad Tomlinson</h1> 
-
-        <img class="personal" src="https://placedog.net/200/200" alt="placeholder of my photo"/>
-
-        <div class="headerinfo">   <!---flex container-->
-
-            
-             <h2 class="phone">Phone: 1-800-555-9292</h2>      
-            <h2 class=email>email: blah@blah.com</h2>
-
-
-        </div>
     
 
-    </header>  
+        <header class=top>
+            
+         
+            <h1 class="name">Brad Tomlinson</h1> 
+            <img class=personal src="https://placedog.net/200/200" alt="200px placeholder">
 
+        </header>
+
+        
         <br>
         <br>
         <br>
         <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
-        <br>
+        <br> 
         <br>
         <br>
         <br>
@@ -47,58 +33,31 @@
         <br>
         <br>
         <!--why does my header run over the following sections?-->
-        
-        
-        <section class="links">
 
-            <h2>About Me</h2>
+        <nav class=links>
+            
+               <a href="#" target="blank"><h2 class="mywork">My Work</h2></a>
+               <a href="#" target="blank"><h2 class="aboutme">About Me</h2></a>
+               <a href="#" target="blank"><h2 class="contactme">Contact Me</h2></a>
             
 
-            <nav class="rofh">
-
-            
-               <a href="https://placedog.net/200/200" target="blank"><h2 id="resume">Resume</h2></a>
-            
-               <a href="https://placedog.net/200/200" target="blank"><h2 id="output">Output</h2></a>
-            
-                <a href="https://placedog.net/200/200" target="blank"><h2 id="family">Family</h2></a>
-            
-                <a href="https://placedog.net/200/200" target="blank"><h2 id="hobbies">Hobbies</h2></a>
-<!-- homework requires page navigation from these links-->
-            </nav>
-            
-        </section>
+        </nav>
 
     
 
-    <nav class="group1">    <!---flex container-->
+    <main class="group">    <!---flex container-->
 
                <!--links to be changed to appropriate destination-->
-        <nav class=group2>
+        <!-- cannot get photo header to align to photo as px decreses -->
 
-            <nav>
-                <a href="https://placedog.net/200/200" target="blank"><img class="resume" src="https://placedog.net/400/400" alt="placeholder of resume photo"/></a>
-            </nav>
+             <a id="work" href="#" target="blank"><img  src="https://placedog.net/200/200" alt="placeholder of resume photo"/><header>My Work</header></a>
 
-            <nav>
-                <a href="https://placedog.net/200/200" target="blank"><img class="samples" src="https://placedog.net/400/400" alt="placeholder of sample photo"/></a>
-            </nav>
+            <a id="about" href="#" target="blank"><img  src="https://placedog.net/200/200" alt="placeholder of sample photo"/><header>About Me</header></a>
 
-        </nav> 
+            <a id=contact href="#" target="blank"><img  src="https://placedog.net/200/200" alt="placeholder of family photo"/><header>Contact Me</header></a>
 
-        <nav class=group3>
-
-            <nav>
-                <a href="https://placedog.net/200/200" target="blank"><img class="family" src="https://placedog.net/400/400" alt="placeholder of family photo"/></a>
-            </nav>
-
-            <nav>
-                <a href="https://placedog.net/200/200" target="blank"><img class="hobbies"src="https://placedog.net/400/400" alt="placeholder of hobbies"/></a>
-            </nav>
-
-        </nav> 
-        
-    </nav>
+            
+    </main>
 
     
 
@@ -112,20 +71,21 @@
            <strong>My email is  </strong><input type="Email"></br>
            <br>
            <h3><button>Send</button></h3>
-        <div>
+        <!-- <div> -->
 
     </section> 
 
 
 
-<footer>
+     <footer>
 
     
-    <p>&#169 StraightOuttaLotion Productions</p>
+       <p>&#169 StraightOuttaLotion Productions</p>
     
     
-</footer>
+     </footer>
 
     
-</body>
+  </body>
+  
 </html>
