@@ -6,7 +6,6 @@ body{
 }
 
 .top{
-    position:fixed;
     background-color:darkslategrey;
     width:100%;
     border-radius: 10px;
@@ -15,7 +14,9 @@ body{
     border: 2px solid black;
     display:inline-block;
     text-align: center;
-
+    display: flex;
+    justify-content: space-between;
+    
 }   
 
 .personal{
@@ -43,7 +44,6 @@ a{
  
 .links{
     height: auto;
-    margin-top: 10px;
     background-color:tan;
     border-radius: 10px;
     border: 2px solid black;
@@ -61,34 +61,30 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+  
 
 }
+
+
+
 header{
     text-align: center;
-    /* width: fit-content; */
+    
 }
 
 #work{
-    border:2px solid black;
-    border-radius:10px;
-    margin:20px
-
+     margin:20px
 
 }
 
 #about{
-    border:2px solid black;
+    border:5px solid black;
     border-radius:10px;
     margin:20px
-
-
 }
 
-#contact{
-    border:2px solid black;
-    border-radius:10px;
-    margin:20px
-
+#contact{   
+    margin:20px 
 
 }
 .contact{
