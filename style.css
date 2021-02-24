@@ -16,19 +16,19 @@ body{
     text-align: center;
     display: flex;
     justify-content: space-between;
-    
+
 }   
 
 .personal{
     border:2px solid black;
     border-radius: 10px;
-    float:right;
+    flex-basis: 0 0 200;
 
 }
 
 .name{
-    float:left;
-    margin-left: 100px;
+    
+    margin-left: 10%; 
     font-size: 200%;
 
 }
@@ -73,8 +73,9 @@ header{
 }
 
 #work{
-     margin:20px
-
+     margin:20px;
+     border-radius:10px;
+     border:1px solid black;
 }
 
 #about{
@@ -84,9 +85,12 @@ header{
 }
 
 #contact{   
-    margin:20px 
+    margin:20px;
+    border-radius:10px;
+    border:1px solid black;
 
 }
+
 .contact{
     text-align: center;
     background-color: darkslategrey;
@@ -111,8 +115,8 @@ footer{
 
 
 
-/* According to my dev tools, tablet width is 768px */
- @media screen and (max-width: 768px) {
+
+ @media screen and (max-width: 850px) {
     
     main,header,.links{
       flex-direction: column;
