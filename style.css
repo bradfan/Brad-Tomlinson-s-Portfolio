@@ -13,17 +13,16 @@ body{
     color: darkkhaki;
     height: auto;
     border: 2px solid black;
-    display:inline-block;
-    /* text-align: center; */
     display: flex;
     justify-content: space-between;
-
+    
+    
 }   
 
 .personal{
     border:2px solid black;
     border-radius: 10px;
-    
+    max-width: 200px;
 
 }
 
@@ -52,8 +51,21 @@ a{
     flex-wrap: wrap;
     justify-content: space-between;
     margin-top: 2px;
-
+    text-align: center;
+    color: mintcream;
+    
 } 
+
+#words{
+    border-radius: 10px;
+    margin-left: 20%;
+    margin-right:20%;
+    color: #3e2723;
+    margin-bottom: 10%;
+    font-size:150%;
+
+
+}
 
 
 main{
@@ -118,16 +130,12 @@ footer{
 
 
 
- @media screen and (max-width: 850px) {
+    @media screen and (max-width: 850px) {
     
     main,header,.links{
       flex-direction: column;
-    } 
-
-    @media screen and (min-width: 400px) {
+    }
+    .personal {align-items:center;}
     
-        main,header,.links{
-          flex-direction: column;
-        } 
+    }
     
- }
